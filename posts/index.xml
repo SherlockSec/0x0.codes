@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 0x0 Codes</title>
+    <link>https://0x0.codes/posts/</link>
+    <description>Recent content in Posts on 0x0 Codes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Aug 2019 21:13:39 +0100</lastBuildDate>
+    
+	<atom:link href="https://0x0.codes/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cicada 3301 0x01| The Beginning</title>
+      <link>https://0x0.codes/posts/cicada0x01/</link>
+      <pubDate>Tue, 20 Aug 2019 21:13:39 +0100</pubDate>
+      
+      <guid>https://0x0.codes/posts/cicada0x01/</guid>
+      <description>Hello, We are looking for highly intelligent individuals. To find them, we have devised a test.
+Thursday, 5th of January, 2012. The following image is posted to 4Chan&amp;#39;s Paranormal board, /x/:
+This got the attention of /x/, many citing it as the work of various government agencies; others calling it just another Alternate Reality Game (ARG). One thing, however, was certain: the rabbit hole dives deep.
+Let us begin on the current story of Cicada 3301.</description>
+    </item>
+    
+  </channel>
+</rss>

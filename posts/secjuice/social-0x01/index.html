@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en-gb">
+  <head>
+    <title>Secjuice Piece | Social Engineering 0x01 ~ An Introduction to Hacking People // SherlockSec</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.59.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Dan Sherlock" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://0x0.codes/css/main.min.74d7f29842f547b73b9b43710a29e91cc820e87a1b361e594cb8d9e95d839292.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Secjuice Piece | Social Engineering 0x01 ~ An Introduction to Hacking People"/>
+<meta name="twitter:description" content="Headnote - This piece was writen by myself and originally published at secjuice.com. It has been reposted here with their permission.
+ Have you ever held a door open for someone? Or helped someone to pick up their dropped belongings? Now that you think about it, did you consciously have to make the decision to help those people? If you did, then society owes you for going above and beyond for those around you."/>
+
+    <meta property="og:title" content="Secjuice Piece | Social Engineering 0x01 ~ An Introduction to Hacking People" />
+<meta property="og:description" content="Headnote - This piece was writen by myself and originally published at secjuice.com. It has been reposted here with their permission.
+ Have you ever held a door open for someone? Or helped someone to pick up their dropped belongings? Now that you think about it, did you consciously have to make the decision to help those people? If you did, then society owes you for going above and beyond for those around you." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://0x0.codes/posts/secjuice/social-0x01/" />
+<meta property="article:published_time" content="2018-11-25T21:57:39+00:00" />
+<meta property="article:modified_time" content="2018-11-25T21:57:39+00:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://0x0.codes"><img class="app-header-avatar" src="/img/avatar.jpg" alt="Dan Sherlock" /></a>
+      <h1>SherlockSec</h1>
+      <p>If you&#39;re here, you likely already have a description. Welcome to the side project.</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/sherlocksec" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/sherlocksec" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Secjuice Piece | Social Engineering 0x01 ~ An Introduction to Hacking People</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Nov 25, 2018
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          5 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      
+
+<blockquote>
+<p><em>Headnote - This piece was writen by myself and originally published at <a href="https://www.secjuice.com/people-hacking-0x01-the-art-of-social-engineering/">secjuice.com</a>. It has been reposted here with their permission.</em></p>
+</blockquote>
+
+<p>Have you ever held a door open for someone? Or helped someone to pick up their dropped belongings? Now that you think about it, did you consciously have to make the decision to help those people? If you did, then society owes you for going above and beyond for those around you. However, if you did not, the potential is present for you to be ground-zero for your company&rsquo;s demise.</p>
+
+<h2 id="people-are-the-weakest-link">People are the Weakest Link</h2>
+
+<p>Out of all the software that is installed at your workplace, which do you think is the most vulnerable? Maybe that old version of Microsoft Office? Or maybe the one computer that still has Windows XP. These answers would be wrong. In almost every instance, the most vulnerable thing about the software in your workplace is the people using it. We, as humans, do not have things like security hot-fixes or patches, yet we have some of the biggest flaws ever seen.</p>
+
+<p>In this mini-series (it might become a full series yet), you&rsquo;ll learn how the human mind works and how to exploit that to your advantage. We&rsquo;ll go over some of the most powerful techniques, and the psychology behind them. You will understand when to use them and how to identify the key signs of weakness.</p>
+
+<p>To start off the series, I&rsquo;m going to talk about an example of social engineering from one of the greats, Kevin Mitnick, who was once one of the most wanted cyber criminals in the world, and talk about what was behind the &lsquo;attack&rsquo;. Kevin has written the book on Deception, and he has an autobiography from his time being one of the most wanted in America, which you can find here:</p>
+
+<p><a href="https://www.amazon.com/Ghost-Wires-Adventures-Worlds-Wanted/dp/0316037729/">Ghost in the Wires - My Adventures As The World&rsquo;s Most Wanted Hacker</a></p>
+
+<p><a href="https://www.amazon.com/Art-Deception-Controlling-Element-Security-ebook/dp/B006BBZHAK/">The Art of Deception - Controlling the Human Element of Security</a></p>
+
+<h2 id="example-free-bus-journeys">Example - Free Bus Journeys</h2>
+
+<p>When Kevin was 12 years old, he was riding the buses in Los Angeles multiple times per day.</p>
+
+<blockquote>
+<p><em>On summer vacation when my mom was at work, I’d sometimes ride the bus all day.</em></p>
+</blockquote>
+
+<p>One day, Kevin thought to himself:</p>
+
+<blockquote>
+<p><em>If I could punch my own transfers, the bus rides wouldn’t cost anything!</em></p>
+</blockquote>
+
+<p>He started to scheme a plan to punch his own tickets.</p>
+
+<p>His plan was simple:</p>
+
+<ol>
+<li>Get the Card Punch that the bus drivers used<br /></li>
+<li>Get a book of blank transfers<br /></li>
+<li>Memorize the transfer patterns<br /></li>
+</ol>
+
+<p>#1 was achieved with relative ease:</p>
+
+<blockquote>
+<p><em>When he stopped at a light, I said, “I’m working on a school project and I need to punch interesting shapes on pieces of cardboard. The punch you use on the transfers would be great for me. Is there someplace I can buy one?”</em></p>
+</blockquote>
+
+<p>Kevin was told by the bus driver that you can get a similar punch from the local craft store for $15.</p>
+
+<p>Step #2 was next, and Kevin thought to himself</p>
+
+<blockquote>
+<p><em>Well, where did the buses get washed?</em></p>
+</blockquote>
+
+<p>He traveled to the nearest bus depot, and spotted a large dumpster next to where the buses parked up for the night.</p>
+
+<blockquote>
+<p><em>Jackpot!</em></p>
+</blockquote>
+
+<p>He had stumbled across multiple partially full books of blank transfers, to which he stuffed his pockets full of. Now that all the hard work was done, he just had to learn the bus timetable ~ an easy task for someone with a good enough memory.</p>
+
+<p>This is a relatively simple example, but it demonstrates two of the most core tools in a social-engineer&rsquo;s arsenal: Curiosity and Dumpster Diving.</p>
+
+<h2 id="curiosity">Curiosity</h2>
+
+<p>Curiosity is a power technique, as it has no negative penalties attached to it - as the old saying goes:</p>
+
+<blockquote>
+<p><em>There&rsquo;s no harm done in asking.</em></p>
+</blockquote>
+
+<p>Let&rsquo;s say you need something normal, like a pen, from someone. The first thing that you would do is simply ask:</p>
+
+<blockquote>
+<p><em>&ldquo;Can I have that pen?&rdquo;</em>.</p>
+</blockquote>
+
+<p>If the response is <em>&ldquo;Yes&rdquo;</em>, then you&rsquo;ve succeeded in your goal. If the response is <em>&ldquo;No&rdquo;</em>, then no harm is done, and you move forward.</p>
+
+<p>In Kevin&rsquo;s case above, he asked the bus driver about the card punch, and he got the answer he wanted. If he didn&rsquo;t get the answer he wanted, he could&rsquo;ve simply moved on as if nothing even happened, potentially even ask a different bus driver.</p>
+
+<h2 id="dumpster-diving">Dumpster Diving</h2>
+
+<p>The other technique used above is a technique known as &lsquo;Dumpster Diving&rsquo;. Dumpster Diving is the act of sifting through a bin or dumpster or something similar to find key objects or information. In Kevin&rsquo;s case above, it was to get the blank transfers, but you can also get things like bank statements and confidential government documents through this technique.</p>
+
+<blockquote>
+<p><em>Sidenote: this is why you are told to shred confidential documents you are throwing away</em></p>
+</blockquote>
+
+<p>Half the time, you don&rsquo;t even need to actually go &lsquo;diving&rsquo; in the rubbish to get the information you need: a camera and a clear view will do.</p>
+
+<h2 id="confidence">Confidence</h2>
+
+<p>One more thing that Kevin had in spades, and is also a vital component in a social-engineer&rsquo;s arsenal: confidence.</p>
+
+<p>If you are confident in what you are saying, people are more likely to believe you; if you are confident that you&rsquo;re supposed to be in a place that you maybe shouldn&rsquo;t be, people are more likely to believe you. Kevin was confident in the questions he asked the bus driver, and was confident in entering the bus depot. Even more so, he was confident in using his forged bus transfers.</p>
+
+<p>Confidence is important in social engineering, as it&rsquo;s half the act. If you&rsquo;re not confident, not only can you falter in delivering the techniques required, you also seem suspicious.</p>
+
+<h2 id="summary">Summary</h2>
+
+<ul>
+<li>The weakest link in security is the people behind it</li>
+<li>Curiosity - never be afraid to just ask for what you need</li>
+<li>Dumpster Diving - <em>&lsquo;one man&rsquo;s trash is another man&rsquo;s treasure&rsquo;</em></li>
+<li>Confidence - If you are confident in what you are doing, others will be too.</li>
+</ul>
+
+<h4 id="さよなら-sayonara-dan">さよなら (sayonara) - Dan</h4>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

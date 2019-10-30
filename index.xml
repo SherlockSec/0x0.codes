@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SherlockSec</title>
+    <link>https://0x0.codes/</link>
+    <description>Recent content on SherlockSec</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 20 Aug 2019 20:10:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://0x0.codes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cicada 3301 0x01| The Beginning</title>
+      <link>https://0x0.codes/posts/cicada/0x01/</link>
+      <pubDate>Tue, 20 Aug 2019 20:10:47 +0000</pubDate>
+      
+      <guid>https://0x0.codes/posts/cicada/0x01/</guid>
+      <description>As many things do in this day and age, it all started with a simple &amp;ldquo;Hello.&amp;rdquo;.
+ Thursday, 5th of January, 2012. The following image is posted to 4Chan&amp;rsquo;s Paranormal board, /x/:
+This got the attention of /x/, many citing it as the work of various government agencies; others calling it just another Alternate Reality Game (ARG). One thing, however, was certain: the rabbit hole dives deep.
+Let us begin on the currently known story of Cicada 3301.</description>
+    </item>
+    
+    <item>
+      <title>HackTheBox | &lt;3</title>
+      <link>https://0x0.codes/posts/htb-heart/</link>
+      <pubDate>Tue, 11 Jun 2019 21:50:27 +0000</pubDate>
+      
+      <guid>https://0x0.codes/posts/htb-heart/</guid>
+      <description>I joined hackthebox.eu on the 27th of June ‘18, 348 days ago, After I was told to “check it out” by some Security Analysts from Raytheon’s Cyber Division. After botching myself through the invite challenge whilst waiting for my food to arrive at a restaurant, I did my first box: “Jerry”; the “Netmon” of old. I remember working on “Poison” whilst waiting for the next talk at Steelcon, Curling whilst I was supposed to be learning Macbeth quotes and Chaos whilst waiting for friends to come over.</description>
+    </item>
+    
+    <item>
+      <title>CherryTree | My Guide</title>
+      <link>https://0x0.codes/posts/guides/cherry-tree/</link>
+      <pubDate>Tue, 28 May 2019 20:10:47 +0000</pubDate>
+      
+      <guid>https://0x0.codes/posts/guides/cherry-tree/</guid>
+      <description>Writing notes using a tree based text editor If you’re anything like me, which is probable, you need to take more notes. Like, seriously, whether it’s from playing CTF’s like HackTheBox or from Cert Training like the PWK labs. Notes not only help organise your already sporadic thoughts, they also provide large crossover with reporting, half the job in any red team position.
+I recently switched from using Nano for my rough notes with some clean up in GDocs to CherryTree, so I’m gonna show some of my new-found benefits of CherryTree whilst also giving you a better understanding of the program.</description>
+    </item>
+    
+    <item>
+      <title>Secjuice Piece | Social Engineering 0x02 ~ Breaking the Brain</title>
+      <link>https://0x0.codes/posts/secjuice/social-0x02/</link>
+      <pubDate>Sun, 30 Dec 2018 22:11:31 +0000</pubDate>
+      
+      <guid>https://0x0.codes/posts/secjuice/social-0x02/</guid>
+      <description>Headnote - This piece was writen by myself and originally published at secjuice.com. It has been reposted here with their permission.
+ Everybody knows that our brain is one of the most essential organs in our bodies, capable of a wide range of mental dexterity, but what most people do not know is that baked into the brains processes are clear cut vulnerabilities. Now these vulnerabilities didn&amp;rsquo;t just come out of nowhere, in this installment, we&amp;rsquo;re going to take a look at the core psychological principles which underpin social engineering.</description>
+    </item>
+    
+    <item>
+      <title>Secjuice Piece | Social Engineering 0x01 ~ An Introduction to Hacking People</title>
+      <link>https://0x0.codes/posts/secjuice/social-0x01/</link>
+      <pubDate>Sun, 25 Nov 2018 21:57:39 +0000</pubDate>
+      
+      <guid>https://0x0.codes/posts/secjuice/social-0x01/</guid>
+      <description>Headnote - This piece was writen by myself and originally published at secjuice.com. It has been reposted here with their permission.
+ Have you ever held a door open for someone? Or helped someone to pick up their dropped belongings? Now that you think about it, did you consciously have to make the decision to help those people? If you did, then society owes you for going above and beyond for those around you.</description>
+    </item>
+    
+  </channel>
+</rss>
